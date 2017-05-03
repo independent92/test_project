@@ -1,0 +1,31 @@
+.login-box
+	.icons
+		a href="index.html" 
+			i.halflings-icon.home
+		a href="#" 
+			i.halflings-icon.cog
+	h2 Login to your account
+	form.form-horizontal action="index.html" method="post" 
+		fieldset
+			.input-prepend title="Username" 
+				span.add-on
+					i.halflings-icon.user
+				input#username.input-large.span10 name="username" placeholder=("type username") type="text" /
+			.clearfix
+			.input-prepend title="Password" 
+				span.add-on
+					i.halflings-icon.lock
+				input#password.input-large.span10 name="password" placeholder=("type password") type="password" /
+			.clearfix
+			label.remember for="remember" 
+				input#remember type="checkbox"
+				| Remember me
+			.button-login
+				button.btn.btn-primary type="submit"  Login
+			.clearfix
+	hr/
+	h3 Forgot Password?
+	p
+		| No problem,
+		a href="#"  click here
+		| to get a new password.
